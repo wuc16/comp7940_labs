@@ -13,5 +13,5 @@ jobs:
       - name: Deploy
         env:
           HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
-          HEROKU_APP_NAME: "comp7940chatbot" # Rename this to the app of your Heroku app.
+          HEROKU_APP_NAME: "comp7940-chen-chatbot" # Rename this to the app of your Heroku app.
         run: git push -f https://heroku:$e2b56d83-47c5-4b6f-9baa-5d304540d5dc@git.heroku.com/$comp7940-chen-chatbot.git main
